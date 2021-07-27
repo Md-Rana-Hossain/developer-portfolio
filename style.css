@@ -5,8 +5,8 @@ body {
 h1 {
   font-size: 50px;
 }
-h2{
-    font-size: 30px;
+h2 {
+  font-size: 30px;
 }
 .name-highlight {
   color: orange;
@@ -52,8 +52,33 @@ section {
   width: 100%;
 }
 .experience-area .experience-each {
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    box-shadow: 10px 10px 30px gray;
-    padding-left: 2%;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px gray;
+  padding-left: 3%;
+  padding-right: 2%;
+  padding-bottom: 5%;
+}
+.experience-each p {
+  text-align: justify;
+}
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#full-stack-web-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(purple, tomato);
+  border-image-slice: 1;
+}
+#baby-web-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(0, 1, 70), rgb(0, 238, 255));
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
+}
